@@ -1,0 +1,93 @@
+body {
+    background-color: #f0f0f0; 
+    font-family: "poppins", sans-serif; 
+}
+
+#wrapper {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(185, 59, 59);
+    border: 2px solid red;
+}
+
+
+.navigasjon {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.linkerSider {
+    display: flex;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.linkAnsatte, .linkManual {
+    display: flex;
+    margin-right: 5%;
+    border: 2px solid forestgreen;
+}
+
+/* chatbot container */
+.chatbotContainer {
+    max-width: 45%;
+    margin: 0 auto;
+    background-color: #dddada;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+    border: 2px solid rgb(25, 105, 163);
+}
+
+/* chatBot message output */
+.chatBox {
+    display: flex;
+    padding: 5%;
+    padding-bottom: 30%;
+    border: 1px solid #ccc;
+    overflow: scroll;
+
+    border: 2px solid rgb(25, 163, 103);
+}
+
+.inputBox {
+    display: flex;
+    margin-top: 10%;
+}
+
+/* user message input */
+#brukerMelding{
+    display: flex;
+    width: 55%;
+   
+    padding: 2%;
+    padding-right: 10%;
+    border-radius: 5px;
+    margin-right: 10%;
+    font-size: medium; 
+    
+    border: 2px solid rgb(207, 183, 183);
+}
+
+/* send knapp */
+button {
+    display: flex;
+    padding: 2%;
+    background-color: #327ac7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+
+    border: 2px solid rgb(186, 196, 206);
+    
+}
+
+
+
+
+
+

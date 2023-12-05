@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Oppskrift chatBot</title>
+</head>
+<body>
+  <div id="wrapper">
+
+    <!-- navigasjon og meny -->
+    <div class="menyBox">
+        <div class="navigasjon">
+            <h1>Ditt måltid</h1>
+
+            <div class="linkerSider">
+                <div class="linkManual">
+                    <a href="../kodenVSC/sider/bruksManualChatBot.html">bruksmanual</a>
+                </div>
+                <div class="linkAnsatte">
+                    <a href="loginAnsatte.php">For ansatte</a>
+                </div>
+                
+            </div>
+              
+        </div>
+     </div>
+    
+     <!-- chat bot -->
+    <div class="chatbotContainer">
+        <div class="header">
+            <h1>Oppskrift Chat-bot</h1>
+            <h3>nettsiden er ikke funkjonell for øyeblikket</h3>
+            
+            
+        </div>
+
+        <!-- chat bot svar -->
+        <div class="chatBox">
+            <div class="ChatBotMessage">
+                <p>hello</p>
+            </div>
+        </div>
+        <!-- user input container -->
+        <div class="inputBox">
+            <label for="brukerMelding"></label>
+            <input type="text" id="brukerMelding" placeholder="Type a message..." autocomplete="off"  autofocus="true" >
+            <button id="send">Send</button>
+
+            
+            
+            <!-- link til git om inføring av database av oppskrifter
+                https://gist.github.com/greghelton/1546514/869e32f28bc2209bdbb8f2ecffbc101269b26525 -->
+        </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
