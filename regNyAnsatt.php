@@ -55,6 +55,7 @@
 	    $row = mysqli_fetch_assoc($result);
 	    $_SESSION['idansatt'] = $row['idansatt'];
 	    $_SESSION['brukernavn'] = $row['brukernavn'];
+      
 	    header("Location: ansatte_forside.php");
 	    exit();
     } else {

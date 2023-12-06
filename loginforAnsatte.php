@@ -35,7 +35,7 @@ else if(empty($passord)) {
         $_SESSION['idansatt'] = $row['idansatt'];
         $_SESSION['brukernavn'] = $row['brukernavn'];
         
-        header("Location: sider/siderForAnns/ansatte_forside.php");
+        header("Location: ansatte_forside.php");
         exit();
     }else{
         header("Location: index.html?error=Ugyldig brukernavn eller passord!");

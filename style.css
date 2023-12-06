@@ -86,7 +86,24 @@ button {
     
 }
 
+/* footer til sidene */
+.footer {
+    display: flex;
+    align-items: center;
+    margin-top: 30%;
+    
+    background-color: black;
+}
 
+.footer * {
+    margin-left: 50px;
+}
+
+.footer a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
 
 
 
