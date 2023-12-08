@@ -11,7 +11,8 @@
     <h1>Hei</h1>
       <!-- linker til registrre ny bruker og oppskrift -->
       <a href="registrer_nyAnsatt.php">Registrer ny ansatt</a><br/>
-      <a href="registrer_nyOppskrift.php">legg til ny oppskrifter</a>
+      <a href="registrer_nyOppskrift.php">legg til ny oppskrifter</a><br/>
+      <a href="loginAnsatte.php">tilbake til inloggingen</a>
     </div>
 </body>
 </html>

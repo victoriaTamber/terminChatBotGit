@@ -6,8 +6,13 @@ body {
 #wrapper {
     width: 1440px;
     margin: 0 auto;
-    background-color: rgb(185, 59, 59);
-    border: 2px solid red;
+    background-color: rgb(226, 98, 203);
+}
+
+#wrapper a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -22,10 +27,9 @@ body {
     border: 3px solid rgb(0, 0, 0);
 }
 
-.linkAnsatte, .linkManual {
+.linkAnsatte {
     display: flex;
     margin-right: 5%;
-    border: 2px solid forestgreen;
 }
 
 /* chatbot container */
@@ -39,7 +43,6 @@ body {
     margin-top: 10%;
     margin-bottom: 10%;
 
-    border: 2px solid rgb(25, 105, 163);
 }
 
 /* chatBot message output */
@@ -49,8 +52,6 @@ body {
     padding-bottom: 30%;
     border: 1px solid #ccc;
     overflow: scroll;
-
-    border: 2px solid rgb(25, 163, 103);
 }
 
 .inputBox {

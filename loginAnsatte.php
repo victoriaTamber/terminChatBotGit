@@ -20,6 +20,7 @@
           <button type="submit" name="login">Login</button><br/>
         </form>
       </div>
+      <a href="index.html">forside</a>
 
     </div>
    
